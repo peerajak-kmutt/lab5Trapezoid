@@ -1,13 +1,9 @@
 import Prob1 as p1;
 
 def test_1():
-    eps =1e-6
-    ans = 192.0
-    x = 2
-    assert ans-eps <= p1.richardson_diff(x) <= ans+eps
+    eps =1e-4
+    ans = 0.7468071
+    f = lambda x: math.exp(-(x**2))
+    assert ans-eps <= p1.trapezoid(f,0,1,60)<= ans+eps
 
-def test_2():
-    eps =1e-6
-    ans = 1458.0
-    x = 3
-    assert ans-eps <= p1.richardson_diff(x)  <= ans+eps
+
