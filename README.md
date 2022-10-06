@@ -1,4 +1,2 @@
-Let f = x^6, find f'(2) with Richardson interpolation N=2.\\
-Note that analytical solution is 192\\
-
-You can only use numpy as additional lib 
+Estimate the integral of f from 0 to 1, with n=60 trapezoid, where f = e^(-x^2)
+(Example from Chapter 5.pdf page 16)
