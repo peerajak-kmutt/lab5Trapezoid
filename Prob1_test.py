@@ -1,4 +1,5 @@
 import Prob1 as p1;
+import math
 
 def test_1():
     eps =1e-4
